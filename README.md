@@ -4,7 +4,7 @@ Group project by a technology class at NTI-gymnasiet Södertälje (2019).
 OBS!
 This version does not in any way represent the final product.
 
-Link to the website: https://ntisod.github.io/te17-3-god-halsa-och-valbefinnande/sites/index
+Link to the website: https://ntisod.github.io/te17-3-god-halsa-och-valbefinnande/
 
 # Author/s
 - **StefaK**
