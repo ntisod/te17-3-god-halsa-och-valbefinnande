@@ -2,7 +2,9 @@
 Group project by a technology class at NTI-gymnasiet Södertälje (2019).
 
 OBS!
-The website is made for 100% fontsize on monitors and isn't responsive, if the site looks wrong then take a look at your image settings.
+This version does not represent the final product in any way.
+
+Link to the website: https://ntisod.github.io/te17-3-god-halsa-och-valbefinnande/sites/index
 
 # Author/s
 - **StefaK**
