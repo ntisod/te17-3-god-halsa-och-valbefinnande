@@ -1,3 +1,5 @@
+Lägg till en länk till https://ntisod.github.io/te17-globala-malen/
+
 # Hälsa och välbefinnande
 Group project by a technology class at NTI-gymnasiet Södertälje (2019).
 
