@@ -129,6 +129,12 @@ Taken from: https://pixabay.com/sv/landskap-natur-bred-sun-2947094/
 
 ----
 
+# Goal images
+Free to use.
+Taken from: https://www.globalamalen.se/material/logotyper/logotyper-mal-3-halsa-och-valbefinnande/
+
+----
+
 # Author images
 
 All four author images are protected by the swedish copyright act (upphovsrättslagen) and may not be used.
