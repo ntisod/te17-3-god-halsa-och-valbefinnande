@@ -5,19 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hälsa och välbefinnande</title>
+    <title>God Hälsa och välbefinnande</title>
 
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <link rel="stylesheet" type="text/css" href="./styles/scrolling.css">
     <link rel="stylesheet" type="text/css" href="./styles/topbar.css">
     <link rel="stylesheet" type="text/css" href="./styles/text.css">
-    <link rel="stylesheet" type="text/css" href="./styles/flipcard.css">
+    <link rel="stylesheet" type="text/css" href="./styles/cards.css">
 </head>
 
 <body>
 
     <section class="sec1 main" id="pic"></section>
     <section class="sectext">
+
+        <div id="anchor1"></div>
+
         <h1 id="rubrik">Häsla och välbefinnande</h1>
         <div class="stycke">
             <p>God hälsa är möjligheten att bidra till samhällets utveckling genom att medverka till sin fulla potential.</p>
@@ -71,94 +74,83 @@
 
         <h1 id="rubrik">målen</h1>
 
-        <!--FLIP CARDS-->
+        <!--CARDS-->
+        <article>
+            <ul class="cards">
+                <li>
+                    <div>
+                        <h1 class="namesign" id="greencolor1">Mödradödligheten</h1>
+                        <img src="images/goal_images/3.1.png" alt="Bild för mål 3.1">
+                        <div class="cards-content" id="greencolor1">
+                            <h2>Mål 3.1</h2>
+                            <p>
+                                I vissa länder dör 100 kvinnor per var 100.000 förlossning. 
+                                Målet är att minska detta nummer till 70 dödsfall per 100.000
+                                förlossningar till år 2030.
+                            </p>
+                            <div>
+                                <a href="https://www.globalamalen.se/om-globala-malen/mal-3-halsa-och-valbefinnande/">Läs mer</a>
+                            </div>
+                           </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h1 class="namesign" id="greencolor2">Dödsfall hos barn</h1>
+                        <img src="images/goal_images/3.2.png" alt="Bild för mål 3.2">
+                        <div class="cards-content" id="greencolor2">
+                            <h2>Mål 3.2</h2>
+                            <p>
+                                Idag har vi 25 dödsfall per 1000 barn under fem år. Målet är att
+                                vid år 2030 ska talet minskas till 12 dödsfall mer 1000 och att 
+                                absolut inga barn under fem år ska dö av orsaker vilket kan enkelt
+                                förebyggas innan.
+                            </p>
+                            <div>
+                                <a href="https://www.globalamalen.se/om-globala-malen/mal-3-halsa-och-valbefinnande/">Läs mer</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h1 class="namesign" id="greencolor3">Smittande sjukdomar</h1>
+                        <img src="images/goal_images/3.3.png" alt="Bild för mål 3.3">
+                        <div class="cards-content" id="greencolor3">
+                            <h2>Mål 3.3</h2>
+                            <p>
+                                I 2018 blev 18.000 personer aids diagnoserade, en sjukdom vilket
+                                garanterar ett kort liv. Målet är att utrota epidemier som
+                                aids, tuberkulos, malaria och andra smittsamma sjukdomar intill 2030.
+                            </p>
+                            <div>
+                                <a href="https://www.globalamalen.se/om-globala-malen/mal-3-halsa-och-valbefinnande/">Läs mer</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h1 class="namesign" id="greencolor4">Drogmissbruk</h1>
+                        <img src="images/goal_images/3.5.png" alt="Bild för mål 3.5">
+                        <div class="cards-content" id="greencolor4">
+                            <h2>Mål 3.5</h2>
+                            <p>
+                                Alkoholmissbruk, drogmissbruk och även narkotikamissbruk är ett stort 
+                                problem idag vi ska satsa på att höja insatserna så vi kan förhindra och 
+                                behandla det på ett bättre sätt.
+                            </p>
+                            <div>
+                                <a href="https://www.globalamalen.se/om-globala-malen/mal-3-halsa-och-valbefinnande/">Läs mer</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </article>
 
-        <!--3.1-->
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front" id="fc-röd">
-                    <h1 class="fc-titlemål">Minska Mödradödligheten</h1>
-                    <h2 class="fc-mål" id="lower">Mål 3.1</h2>
-                    <p id="lowerp">
-                        Minska mödradödligheten till 70 dödsfall per 100,000 förlossningar.
-                    </p>
-                </div>
-                <div class="flip-card-back" id="fc-röd">
-                    <h1 class="fc-titlemål">Mödradödligheten</h1>
-                    <h2 class="fc-mål">Mål 3.1</h2>
-                    <p id="fc-p">
-                        Målen är att sänka mödradödligheten från 1000 dödsfall per 100,000 förlossning till 70 dödsfall. I fattiga
-                        länder har mödradödligheten blivit ett problem på grund av deras tendens att skaffa stora familjer trots
-                        deras dåliga sjukvård.
-                    </p>
-                </div>
-            </div>
-        </div>
 
-        <!--3.2-->
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front" id="fc-blå">
-                    <h1 class="fc-titlemål">Förhindra dödsfall för barn under 5 år</h1>
-                    <h2 class="fc-mål" id="lower">Mål 3.2</h2>
-                    <p id="lowerp">
-                        Inga spädbarn eller barn under 5 år sla dö av orsaker som kan förebyggas.
-                    </p>
-                </div>
-                <div class="flip-card-back" id="fc-blå">
-                    <h1 class="fc-titlemål">Förhindra dödsfall</h1>
-                    <h2 class="fc-mål">Mål 3.2</h2>
-                    <p id="fc-p">År 2030 ska vi sträva om att inga spädbarn eller barn under 5 år ska dö av orsaker 
-                        som kan förebyggas. Idag har vi 25 dödsfall per 1000 levande födda målet är att alla länder
-                        bör samarbeta för att minska den antalet dödligheten till 12 dödsfall per 1000 döda.
-                    </p>
-                </div>
-            </div>
-        </div>
 
-        <!--3.3-->
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front" id="fc-grön">
-                    <h1 class="fc-titlemål">Bekämpa smittande sjukdomar</h1>
-                    <h2 class="fc-mål" id="lower">Mål 3.3</h2>
-                    <p id="lowerp">
-                        Utrota epidemier som aids, tuberkulos, malaria och försummade tropiska sjukdomar mm.
-                    </p>
-                </div>
-                <div class="flip-card-back" id="fc-grön">
-                    <h1 class="fc-titlemål">Sjukdomar</h1>
-                    <h2 class="fc-mål">Mål 3.3</h2>
-                    <p id="fc-p">
-                        I 2016 blev 18,000 personer Aids diagnoserade. Målet är att utrota epidemier som aids, 
-                        tuberkulos, malaria och försummade tropiska sjukdomar samt bekämpa hepatit, vattenburna sjukdomar 
-                        och andra smittsamma sjukdomar intill 2030. 
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!--3.5-->
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front" id="fc-lila">
-                    <h1 class="fc-titlemål">Förhindra och behandla drogmissbruk</h1>
-                    <h2 class="fc-mål" id="lower">Mål 3.5</h2>
-                    <p id="lowerp">
-                        Behandla folk påverkade av drogmissbruk och förhindra framtida narkotika användning.
-                    </p>
-                </div>
-                <div class="flip-card-back" id="fc-lila">
-                    <h1 class="fc-titlemål">Drogmissbruk</h1>
-                    <h2 class="fc-mål">Mål 3.5</h2>
-                    <p id="fc-p">
-                        Alkoholmissbruk, drogmissbruk och även narkotikamissbruk är ett stort problem idag vi ska satsa
-                        på att höja insatserna så vi kan förhindra och behandla det på ett bättre sätt.
-                    </p>
-                </div>
-            </div>
-        </div>
-        
         <div id="stycke">
             <p>
                 För att se resterande mål, besök <a href="https://www.globalamalen.se" target="_blank">Globala målen</a> eller läs mer
@@ -169,23 +161,20 @@
 
 
 
-        <!--        FOOTER      -->
+        <!--        FOOTER    -->
         <footer>
             <ul id="footer-left">
                 <li><a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank">NTI-gymnasiet</a></li>
                 <li><a href="https://www.ntigymnasiet.se/program/informations-och-medieteknik/sodertalje/" target="_blank">Teknik Programmet</a></li>
                 <li><a href="https://www.ntigymnasiet.se/sodertalje/oppet-hus/" target="_blank">Öppet hus</a></li>
             </ul>
-            <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank"><img src="./images/nti_images/logo.png"></a>
+            <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank"><img src="./images/nti_images/logo.png" alt="NTI logga"></a>
             <ul id="footer-right">
                 <li><a href="./README.md">Used Licenses</a></li>
-                <li><a href="./LICENSE">This site's licenses</a></li>
-                <li>Kontakt:</li>
                 <li>08-550 838 52</li>
                 <li>sodertalje@ntig.se</li>
             </ul>
         </footer>
-
 
     </section>
 
@@ -200,14 +189,14 @@
 
     <nav>
     	<div class="logo">
-    		<a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank"><img src="./images/nti_images/logo-stroke.png"></a>
+    		<a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank"><img src="./images/nti_images/logo-stroke.png" alt="NTI logga"></a>
     	</div>
 
     	<ul>
             <li><a href="#">TOP</a></li>
     		<li><a href="om-oss.html">OM OSS</a></li>
+            <li><a href="#anchor3">BIDRA</a></li>
     		<li><a href="#anchor2">MÅLEN</a></li>
-            <li><a href="#anchor3">HJÄLP SJÄLV</a></li>
     		<li><a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank">VÅR SKOLA</a></li>
     	</ul>
     </nav>

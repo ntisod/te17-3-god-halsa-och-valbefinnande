@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+article {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+ul.cards {
+    width: 100%;
+}
+
+ul.cards > li {
+    display: inline-block;
+    zoom: 1;
+    margin: 30px;
+    margin-bottom: 300px;
+}
+
+ul.cards li div {
+    position: relative;
+    color: black;
+    margin: 50px;
+}
+
+ul.cards li div h1 {
+    border: solid black 1px;
+    position: absolute;
+    top: -40px;
+    left: 50px;
+    width: 200px;
+    height: 50px;
+    font: 'Asap';
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    text-transform: capitalize;
+}
+
+ul.cards li div img {
+    border: solid black 1px;
+    width: 300px;
+    height: 400px;
+}
+
+ul.cards li div div.cards-content {
+    border: solid black 1px;
+    width: 400px;
+    height: 275px;
+    position: absolute;
+    bottom: -285px;
+    right: -100px;
+}
+
+ul.cards li div div.cards-content h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+ul.cards li div div.cards-content ul {
+    position: absolute;
+    left: 120px;
+    line-height: 0;
+}
+
+ul.cards li div div.cards-content ul li {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+ul.cards li div div.cards-content p {
+    font-size: 20px;
+    line-height: 22px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 350px;
+}
+
+ul.cards li div div.cards-content div{
+    font-size: 20px;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+#purplecolor1 {
+    background-color: #AC06FF;
+}
+#purplecolor2 {
+    background-color: #BB4CFF;
+}
+#purplecolor3 {
+    background-color: #9A06E5;
+}
+#purplecolor4 {
+    background-color: #7E00CC;
+}
+
+#greencolor1 {
+    background-color: #15FF61;
+}
+#greencolor2 {
+    background-color: #12E558;
+}
+#greencolor3 {
+    background-color: #1DFF74;
+}
+#greencolor4 {
+    background-color: #17CC5D;
+}

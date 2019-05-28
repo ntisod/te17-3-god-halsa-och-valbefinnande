@@ -1,10 +1,12 @@
+Lägg till en länk till https://ntisod.github.io/te17-globala-malen/
+
 # Hälsa och välbefinnande
 Group project by a technology class at NTI-gymnasiet Södertälje (2019).
 
 OBS!
 This version does not in any way represent the final product.
 
-Link to the website: https://ntisod.github.io/te17-3-god-halsa-och-valbefinnande/sites/index
+Link to the website: https://ntisod.github.io/te17-3-god-halsa-och-valbefinnande/
 
 # Author/s
 - **StefaK**
@@ -124,6 +126,12 @@ Changes: Resolution (from: 3197×1110, to: 3197×800)
 Image author: ramboldheiner
 
 Taken from: https://pixabay.com/sv/landskap-natur-bred-sun-2947094/
+
+----
+
+# Goal images
+Free to use.
+Taken from: https://www.globalamalen.se/material/logotyper/logotyper-mal-3-halsa-och-valbefinnande/
 
 ----
 
